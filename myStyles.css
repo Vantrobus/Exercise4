@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(-45deg, #AA893A, #AB3E3B, #A87348, #A85C5F);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  padding-top: 5%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#AboutMeTitle {
+    color: #F0E7D2;
+    text-align: center;
+}
+
+#faveLink {
+    color: #F0E7D2;
+    text-align: center;
+}
+
+p {
+    color: cadetblue;
+}
+
+#firstParagraph {
+    color: #F0E7D2;
+    text-align: center;
+}
+
+.spanishClass {
+
+    color:#F0E7D2;
+    text-align: center;
+
+}
+
+#favouriteTitle {
+    color: #F0E7D2;
+    text-align: center;
+}
+
+.spanishFlag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.TranslateBtn {
+    text-align: center;
+}
+
+.GreenBtn {
+    text-align: center;
+}
+
+.Celebs {
+    text-align: center;
+}
+
+
+.myGreenButton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #BF9533;
+
+}
+
+a {
+    appearance: button;
+}
+
+
+#MyFaveThingsTitle{ 
+
+    text-align: center;
+}
